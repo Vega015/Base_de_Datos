@@ -53,3 +53,42 @@ constan de un título y una extensión.
 
 ● Para cada revista, almacenaremos información de cada ejemplar, que incluirá la
 fecha, número de páginas y el número de ejemplares vendidos.
+
+
+Sustantivos o entidades 
+Sucursales
+Empleados
+Revistas
+Periodistas
+Secciones
+Ejemplares
+
+Atributos o campos
+
+Domicilio_Surcursal
+Telefono_Surcursal
+Codigo_Sucursal
+
+Nombre_Empleado
+Apellido_Empleado
+NIF_Empleado
+Telefono_Empleado
+
+Nombre_Periodista
+Apellido_Periodista
+NIF_Periodista
+Telefono_Periodista
+
+Titulo
+Extension
+
+Fecha_Revista
+Num_Paginas
+Num_Ejemplares
+
+
+![image](https://user-images.githubusercontent.com/34118685/169090578-d1d3b536-71f0-461f-8eaf-cf291cdb1051.png)
+
+
+
+
