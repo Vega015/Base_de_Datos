@@ -100,7 +100,8 @@ Fecha_Revista
 Num_Paginas
 Num_Ejemplares
 
-![image](https://user-images.githubusercontent.com/34118685/169090862-3257be1a-16ea-4de5-9cc5-6ec91d178771.png)
+![image](https://user-images.githubusercontent.com/34118685/169565209-1f6534db-2c86-4f27-b767-b86fbe132350.png)
+
 
 
 
