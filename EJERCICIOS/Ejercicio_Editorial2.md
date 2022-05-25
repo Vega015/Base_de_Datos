@@ -159,5 +159,5 @@ https://www.db-fiddle.com/f/26N3vCMEwN58VKx14Sh7nb/0
     INSERT INTO rev_per VALUES ('REV_102','PER_08');
     INSERT INTO rev_per VALUES ('REV_103','PER_05');
     INSERT INTO rev_per VALUES ('REV_103','PER_09');
-INSERT INTO rev_per VALUES ('REV_103','PER_11');
+    INSERT INTO rev_per VALUES ('REV_103','PER_11');
 
