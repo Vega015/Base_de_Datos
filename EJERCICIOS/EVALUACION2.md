@@ -67,6 +67,8 @@ Modelo entidad/relación
 
 Base de datos para MySQL
 
+https://www.db-fiddle.com/f/c63xUmSw1K8ndYKNyhSRmp/0
+
     CREATE DATABASE informatica;
     USE informatica;
 
