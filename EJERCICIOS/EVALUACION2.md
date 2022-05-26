@@ -24,7 +24,7 @@ Ejercicio:
 - Standarized Query Languaje , es un lenguaje estandarizado para la consulta, organizar  grandes canitidades de datos, que se encuentran estructurados como el modelo entidad relacion.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
-MySQL es un software que sirve como gestor de base de datos, que rirve como interfaz entre la base de datos y los usuarios finales.
+- MySQL es un software que sirve como gestor de base de datos, que rirve como interfaz entre la base de datos y los usuarios finales.
 ## Práctica 5.
 ### Gestores de base de datos
 
