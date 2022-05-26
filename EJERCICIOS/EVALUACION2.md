@@ -4,27 +4,27 @@ Objetivo: Demostrar la correcta identificación de los conceptos del lenguaje SQ
 Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
-Los Comandos DML son SELECT, INSERT INTO, UPDATE, DELETE.
+- Los Comandos DML son SELECT, INSERT INTO, UPDATE, DELETE.
 
 2. Menciona 3 tipos de datos que existen: (valor .85)
-Existen 3 tipos de datos los cuales son: numerico, caracter, booleano.
+- Existen 3 tipos de datos los cuales son: numerico, caracter, booleano.
 
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
-TRUNCATE es una funcion DDL, sirve para borrar el contenido de toda la tabla, no se puede aplicar si existen FK asociadas.
-DELETE es una funcion DML, sirve para borrar un contenido selectivo en la tabla (con ayuda de la clausula WHERE), se puede aplicar aunque tengan una FK asociada
+- TRUNCATE es una funcion DDL, sirve para borrar el contenido de toda la tabla, no se puede aplicar si existen FK asociadas.
+- DELETE es una funcion DML, sirve para borrar un contenido selectivo en la tabla (con ayuda de la clausula WHERE), se puede aplicar aunque tengan una FK asociada
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
-Es una funcion que permite no repetir los datos dentro de un atributo.
+- Es una funcion que permite no repetir los datos dentro de un atributo.
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
-La principal diferencia es la capacidad de almacenar la memoria, VARCHAR se ajusta al tamaño de la cadena, por otro lado, CHAR es fija, a pesar de que la cadena sea mas pequeña que la capacidad de memoria que se le habia ajustado previamente.
+- La principal diferencia es la capacidad de almacenar la memoria, VARCHAR se ajusta al tamaño de la cadena, por otro lado, CHAR es fija, a pesar de que la cadena sea  - mas pequeña que la capacidad de memoria que se le habia ajustado previamente.
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
-Standarized Query Languaje , es un lenguaje estandarizado para la consulta, organizar  grandes canitidades de datos, que se encuentran estructurados como el modelo entidad relacion.
+- Standarized Query Languaje , es un lenguaje estandarizado para la consulta, organizar  grandes canitidades de datos, que se encuentran estructurados como el modelo entidad relacion.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
-MySQL es un software que sirve como gestor de base de datos 
+MySQL es un software que sirve como gestor de base de datos, que rirve como interfaz entre la base de datos y los usuarios finales.
 ## Práctica 5.
 ### Gestores de base de datos
 
