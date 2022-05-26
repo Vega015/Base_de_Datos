@@ -65,3 +65,40 @@ Modelo entidad/relación
 
 
 Base de datos para MySQL
+
+    CREATE DATABASE informatica;
+    USE informatica;
+
+    CREATE TABLE fabricantes(
+      id_fabricante VARCHAR(50) UNIQUE PRIMARY KEY,
+        nombre_fabricante VARCHAR(50)
+    );
+
+    INSERT INTO fabricantes VALUES ('SEA01','SEAGATE');
+    INSERT INTO fabricantes VALUES ('CRU01','CRUCIAL');
+    INSERT INTO fabricantes VALUES ('SAM01','SAMNSUNG');
+    INSERT INTO fabricantes VALUES ('GIG01','GIGABYTE');
+    INSERT INTO fabricantes VALUES ('ASU01','ASUS');
+    INSERT INTO fabricantes VALUES ('LEN01','LENOVO');
+    INSERT INTO fabricantes VALUES ('HP01','HP');
+
+    CREATE TABLE productos (
+      id_producto VARCHAR(50) UNIQUE PRIMARY KEY,
+        nombre_producto VARCHAR(50) NOT NULL,
+        precio FLOAT NOT NULL,
+        id_fabricante1 VARCHAR(50),
+        FOREIGN KEY (id_fabricante1) REFERENCES fabricantes(id_fabricante)
+      );
+
+     INSERT INTO productos VALUES ('DD-23','Disco duro SATA3 1TB',86.99,'SEA01');
+     INSERT INTO productos VALUES ('MM-34','Memoria RAM DDR4 8GB',120,'CRU01');
+     INSERT INTO productos VALUES ('DD-98','Disco SSD 1 TB',150.99,'SAM01');
+     INSERT INTO productos VALUES ('MM-98','GeoForce GTX 1050Ti',185,'GIG01');
+     INSERT INTO productos VALUES ('MM-23','GeoForce GTX 1080 Xtreme',755,'CRU01');
+     INSERT INTO productos VALUES ('MT-12','Monitor 24 LED Full HD',202,'ASU01');
+     INSERT INTO productos VALUES ('MT-08','Monitor 27 LED Full HD',245.99,'ASU01');
+     INSERT INTO productos VALUES ('LP-19','Portátil Yoga 520',559,'LEN01');
+     INSERT INTO productos VALUES ('LP-11','Portátil Ideapd 320',444,'LEN01');
+     INSERT INTO productos VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP01');
+     INSERT INTO productos VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180,'HP01');
+ 
