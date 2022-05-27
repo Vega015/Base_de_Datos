@@ -1,5 +1,7 @@
 En la BD utilizada en clase realiza las siguientes consultas:
 
+Mi codigo: https://www.db-fiddle.com/f/26N3vCMEwN58VKx14Sh7nb/1
+
 * La tabla empleado
 ![image](https://user-images.githubusercontent.com/34118685/170726987-fa598b5d-98fa-4a8c-ba67-7469291ccadb.png)
 
