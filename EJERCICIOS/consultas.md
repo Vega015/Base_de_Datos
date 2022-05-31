@@ -36,3 +36,6 @@ Mi codigo: https://www.db-fiddle.com/f/26N3vCMEwN58VKx14Sh7nb/1
 
 
 https://www.db-fiddle.com/f/iAUjGLoFoHtam2pK68Xh1B/1
+
+EJEMPLO
+https://www.db-fiddle.com/f/f5YQQo1MCXhD95LFCdiYFB/13
