@@ -34,6 +34,7 @@ Campos
 - nombre_categoria
 - codigo_categoria
 
+![image](https://user-images.githubusercontent.com/34118685/171337728-7abac9dc-c799-4f52-85dd-51aa40ee2123.png)
 
 
 ● Crea el script para la base de datos.
