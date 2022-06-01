@@ -63,3 +63,5 @@ precio y categoría.
 un código de categoría único.
 
 ● Una pieza sólo puede pertenecer a una categoría.
+
+https://www.db-fiddle.com/f/5oZhA97xR67cLHQysURXnn/0
