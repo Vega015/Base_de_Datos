@@ -3,6 +3,39 @@
 
 ● Diseña el modelo entidad-relación del siguiente problema.
 
+Sustantivos
+- Proveedor
+- Pedido
+- Piezas
+- Categoria
+
+Campos
+* Proveedor
+- Nombre_Proveedor
+- Direccion_Proveedor
+- Ciudad_Proveedor
+- Provincia_Proveedor
+- Codigo_Proveedor
+
+* Pedido
+- cantidad
+- tipo_pieza
+- Fecha_pedido
+- codigo_pedido
+
+* Piezas
+- Codigo_Pieza
+- Nombre_Pieza
+- Color_Pieza
+- Precio_Pieza
+- Categoria_Pieza
+
+* Categoria
+- nombre_categoria
+- codigo_categoria
+
+
+
 ● Crea el script para la base de datos.
 Proveedores
 
