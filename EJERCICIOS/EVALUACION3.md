@@ -22,7 +22,8 @@ Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la ge
 Ejercicio:
 
 1. Calcula el número total de productos que hay en la tabla productos. (valor 4.5)
- 
+ ![image](https://user-images.githubusercontent.com/34118685/171875334-2844bd7e-1796-4cf7-a817-0c2703d8f06a.png)
+
 
 
 2. Muestra el número total de productos que tiene cada uno de los fabricantes. El listado
@@ -31,37 +32,20 @@ mostrará dos columnas, una con el nombre del fabricante y otra con el número d
 productos que tiene. Ordene el resultado descendentemente por el número de
 productos. (valor 4.5)
 
+![image](https://user-images.githubusercontent.com/34118685/171875449-5a526afa-ede2-4104-80de-a447521c26b9.png)
 
 
 3. Muestra el precio máximo, precio mínimo y precio medio de los productos de cada
 uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los
 datos que se solicitan. (valor 4.5)
+![image](https://user-images.githubusercontent.com/34118685/171875538-e944cea0-ccee-4a05-8bc1-5cd58b8a4b07.png)
+
 
 4. Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo,
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
+ ![image](https://user-images.githubusercontent.com/34118685/171875654-36cb2cb5-9206-40ba-8d9d-d6d580b2955d.png)
 
-     USE informatica;
-    -- Ejercicio 1
-
-    SELECT COUNT(nombre_producto) AS Total_de_numero_producto FROM productos;
-
-    -- Ejercicio 2
-    SELECT nombre_fabricante, COUNT(nombre_producto) AS Numero_Producto FROM fabricantes
-    LEFT JOIN productos ON fabricantes.id_fabricante = productos.id_fabricante1
-    GROUP BY (id_fabricante);
-
-    -- Ejercicio 3
-
-    SELECT nombre_fabricante ,ROUND(MAX(precio),2) AS maximo, ROUND(MIN(precio),2) AS minimo , ROUND(AVG(precio),2) AS promedio FROM fabricantes
-    LEFT JOIN productos ON productos.id_fabricante1 = fabricantes.id_fabricante
-    GROUP BY (id_fabricante);
-
-    -- Ejericio 4
-    SELECT nombre_fabricante ,ROUND(MAX(precio),2) AS maximo, ROUND(MIN(precio),2) AS minimo , ROUND(AVG(precio),2) AS promedio,  COUNT(nombre_producto) AS Numero_Producto FROM fabricantes
-    LEFT JOIN productos ON productos.id_fabricante1 = fabricantes.id_fabricante
-    GROUP BY (id_fabricante)
-    HAVING promedio > 200;
 
 
 https://www.db-fiddle.com/f/c63xUmSw1K8ndYKNyhSRmp/2
