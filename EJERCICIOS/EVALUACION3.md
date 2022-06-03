@@ -92,3 +92,4 @@ Una vez creada la tabla escriba dos triggers con las siguientes características
 Una vez creados los triggers escribe varias sentencias de inserción y actualización
 sobre la tabla alumnos y verifica que los triggers se están ejecutando
 correctamente.
+https://www.db-fiddle.com/f/v96s3LYoJY2gz68vhEvPHD/0
