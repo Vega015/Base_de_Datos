@@ -11,8 +11,13 @@ Ejercicio:
 - Es un sistema que agrega y combina informacion de diferentes fuentes en un almacen de datos único y centralizado, sirve para respaldar el analisis empresarial, la mineria de datos, etc.
 
 2. Realiza un diseño del modelo en estrella (valor 2)
+- Un esquema estrella es un tipo de esquema de base de datos relacional que consta de una sola tabla de hechos central rodeada de tablas de dimensiones.
+![image](https://user-images.githubusercontent.com/34118685/171877827-de6dee4d-05b7-441f-a915-15bb435c702e.png)
+
 
 3. Realiza un diseño del modelo copo de nieve (valor 2)
+- El esquema de copo de nieve consta de una tabla de hechos que está conectada a muchas tablas de dimensiones, que pueden estar conectadas a otras tablas de dimensiones a través de una relación de muchos a uno.
+![image](https://user-images.githubusercontent.com/34118685/171881089-d65dc212-c826-40d2-a2e9-a21eaa82374f.png)
 
 
 ## Práctica 7
