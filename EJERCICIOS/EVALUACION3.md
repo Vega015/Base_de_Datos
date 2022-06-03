@@ -53,9 +53,8 @@ precio medio y el número total de productos de los fabricantes que tienen un pr
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
  ![image](https://user-images.githubusercontent.com/34118685/171875654-36cb2cb5-9206-40ba-8d9d-d6d580b2955d.png)
 
+Los ejercicios se encuentran en este link : https://www.db-fiddle.com/f/c63xUmSw1K8ndYKNyhSRmp/2
 
-
-https://www.db-fiddle.com/f/c63xUmSw1K8ndYKNyhSRmp/2
 ## Práctica 8.
 ### Disparadores (Triggers)
 
@@ -110,4 +109,6 @@ Una vez creada la tabla escriba dos triggers con las siguientes características
 Una vez creados los triggers escribe varias sentencias de inserción y actualización
 sobre la tabla alumnos y verifica que los triggers se están ejecutando
 correctamente.
+
+Los ejercicios se encuentran en este 
 https://www.db-fiddle.com/f/v96s3LYoJY2gz68vhEvPHD/0
