@@ -111,4 +111,4 @@ sobre la tabla alumnos y verifica que los triggers se están ejecutando
 correctamente.
 
 Los ejercicios se encuentran en este 
-https://www.db-fiddle.com/f/v96s3LYoJY2gz68vhEvPHD/0
+https://www.db-fiddle.com/f/v96s3LYoJY2gz68vhEvPHD/1
